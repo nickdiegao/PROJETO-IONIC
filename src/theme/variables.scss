@@ -83,7 +83,7 @@
    */
 
   body {
-    --ion-color-primary: #428cff;
+    --ion-color-primary: #007bac; // cor do botão
     --ion-color-primary-rgb: 66,140,255;
     --ion-color-primary-contrast: #ffffff;
     --ion-color-primary-contrast-rgb: 255,255,255;
@@ -197,7 +197,9 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    max-height: 100vh;
+
+    --ion-background-color: #ffffff; //plano de fundo
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -227,7 +229,7 @@
 
     --ion-item-background: #1e1e1e;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #007bac; //A barra principal onde diz o nome do projeto
 
     --ion-tab-bar-background: #1f1f1f;
 
